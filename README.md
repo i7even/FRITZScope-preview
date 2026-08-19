@@ -4,6 +4,17 @@
 
 # FRITZ!Scope
 
+<p>
+  <a href="#current-public-status--estado-público-atual"><img alt="Status: visual preview" src="https://img.shields.io/badge/status-visual%20preview-7c3aed?style=flat-square"></a>
+  <img alt="Platform: Windows" src="https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&amp;logo=windows11&amp;logoColor=white">
+  <img alt="Version: v3.0.0B" src="https://img.shields.io/badge/version-v3.0.0B-1f6feb?style=flat-square">
+  <img alt="Languages: PT-PT and EN Global" src="https://img.shields.io/badge/languages-PT--PT%20%7C%20EN%20Global-0b7285?style=flat-square">
+  <img alt="Public release: not yet" src="https://img.shields.io/badge/public%20release-not%20yet-d97706?style=flat-square">
+  <a href="https://github.com/i7even/FRITZScope-preview/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/i7even/FRITZScope-preview?style=flat-square&amp;color=2ea44f"></a>
+  <a href="https://github.com/i7even/FRITZScope-preview/discussions"><img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/i7even/FRITZScope-preview?style=flat-square&amp;logo=github&amp;label=discussions"></a>
+  <a href="#trademark-and-temporary-name-notice--aviso-de-marcas-e-nome-provisório--hinweis-zu-marken-und-zum-vorläufigen-projektnamen"><img alt="Rights: all rights reserved" src="https://img.shields.io/badge/rights-all%20rights%20reserved-e8590c?style=flat-square"></a>
+</p>
+
 **Visual preview · Work in progress**  
 **Pré-visualização visual · Em desenvolvimento**
 
