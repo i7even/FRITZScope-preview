@@ -1,0 +1,34 @@
+# Image-only public preview allowlist.
+# Everything is ignored unless explicitly allowed below.
+*
+!.gitignore
+!README.md
+!assets/
+!assets/**/
+!assets/**/*.png
+
+# Explicit sensitive/private patterns retained for clarity.
+*.exe
+*.zip
+*.7z
+*.rar
+*.ps1
+*.cs
+*.json
+*.csv
+*.log
+*.db
+*.sqlite
+*.bak
+*.tmp
+*.key
+*.pem
+*.pfx
+*.cer
+*.config
+*.env
+Dados/
+Data/
+Logs/
+Backups/
+Releases/
