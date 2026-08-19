@@ -10,7 +10,7 @@
 Local Windows network intelligence for FRITZ!Box  
 Inteligência local de rede para FRITZ!Box
 
-`v3.0.0B` · `Native Windows Beta` · `PT-PT` · `EN Global`
+`v3.0.0B` · `Native Windows Beta` · `PT-PT` · `EN Global` · `DE planned · geplant`
 
 </div>
 
@@ -50,10 +50,70 @@ Ajuda a decidir como uma futura versão estável deverá ser distribuída. A vot
 
 - Visual preview only · Apenas apresentação visual
 - Native Windows interface under active development · Interface nativa para Windows em desenvolvimento ativo
-- PT-PT and EN Global interface · Interface PT-PT e EN Global
+- PT-PT and EN Global interface; German planned · Interface PT-PT e EN Global; alemão planeado
 - No public executable or source-code download · Sem download público do executável ou código-fonte
 - Screenshots use masked network addresses · Os endereços de rede estão ocultos nas imagens
 - No credentials, router logs, history or private configuration are included · Não são incluídos credenciais, registos do router, histórico ou configurações privadas
+
+## Roadmap and ideas under evaluation · Roteiro e ideias em avaliação · Roadmap und Ideen in Prüfung
+
+### Português — PT-PT
+
+#### Interface em alemão
+
+Está prevista uma interface em alemão para uma versão futura. Como o criador vive na Alemanha, mas ainda está a aprender alemão, todos os textos alemães serão cuidadosamente revistos antes de qualquer lançamento. O objetivo é apresentar uma tradução natural, clara e tão correta quanto possível — não uma tradução automática publicada à pressa.
+
+#### Funcionalidades em avaliação
+
+- Mapa gráfico da rede e visualização da topologia, das rotas e do rastreio IP (`traceroute`);
+- Temperatura interior/ambiente e temperatura exterior;
+- Integração de dados meteorológicos;
+- Deteção e associação de routers secundários, repetidores, pontos de acesso, extensores e nós mesh;
+- Painel de controlo para dispositivos de casa inteligente;
+- Integração com o Home Assistant;
+- Possíveis integrações com o Google Assistant e a Amazon Alexa.
+
+Estas funcionalidades são apenas ideias em avaliação: ainda não estão implementadas nem são garantidas. Qualquer implementação dependerá de uma análise de viabilidade técnica, privacidade e segurança. As integrações meteorológicas, de casa inteligente e com assistentes de voz poderão exigir contas de fornecedor, serviços cloud, APIs oficiais, permissões do utilizador e o cumprimento das respetivas condições de utilização.
+
+---
+
+### English — Global
+
+#### German-language interface
+
+A German-language interface is planned for a future release. The creator lives in Germany but is still learning German, so all German text will be carefully reviewed before publication. The aim is to provide natural, clear and accurate wording rather than publishing a rushed machine translation.
+
+#### Features under evaluation
+
+- A graphical network map with topology, route and IP-trace (`traceroute`) visualisation;
+- Indoor or ambient temperature and outdoor temperature;
+- Weather-data integration;
+- Detection and association of secondary routers, repeaters, access points, extenders and mesh nodes;
+- A smart-home device dashboard;
+- Home Assistant integration;
+- Possible Google Assistant and Amazon Alexa integrations.
+
+These features are ideas under evaluation only: they are not currently implemented or guaranteed. Any implementation will depend on technical feasibility, privacy and security reviews. Weather, smart-home and voice-assistant integrations may require vendor accounts, cloud services, official APIs, user permissions and compliance with the relevant terms of service.
+
+---
+
+### Deutsch — Deutschland
+
+#### Deutsche Benutzeroberfläche
+
+Eine deutsche Benutzeroberfläche ist für eine zukünftige Version geplant. Der Entwickler lebt in Deutschland, lernt aber noch Deutsch. Deshalb werden alle deutschen Texte vor einer Veröffentlichung sorgfältig sprachlich geprüft. Ziel ist eine natürliche, klare und möglichst fehlerfreie Fassung – keine hastig veröffentlichte Maschinenübersetzung.
+
+#### Funktionen in Prüfung
+
+- Eine grafische Netzwerkkarte mit Darstellung der Topologie, Netzwerkpfade und IP-Traces (`Traceroute`);
+- Innen- beziehungsweise Raumtemperatur und Außentemperatur;
+- Integration von Wetterdaten;
+- Erkennung und Zuordnung zusätzlicher Router, Repeater, Access Points, Extender und Mesh-Knoten;
+- Ein Smart-Home-Dashboard;
+- Integration mit Home Assistant;
+- Mögliche Integrationen mit Google Assistant und Amazon Alexa.
+
+Diese Funktionsideen werden derzeit nur geprüft; sie sind noch nicht implementiert und nicht verbindlich zugesagt. Eine mögliche Umsetzung setzt eine Prüfung der technischen Machbarkeit sowie des Datenschutzes und der Sicherheit voraus. Wetterdienste, Smart-Home-Systeme und Sprachassistenten können Herstellerkonten, Cloud-Dienste, offizielle APIs, Benutzerberechtigungen und die Einhaltung der jeweiligen Nutzungsbedingungen erfordern.
 
 ## Trademark and temporary-name notice · Aviso de marcas e nome provisório
 
@@ -78,3 +138,4 @@ Informação oficial sobre as marcas e respetivas condições de utilização: [
 © 2026 by **-7™ aka i7even** · All rights reserved
 
 </div>
+
