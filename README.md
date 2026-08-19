@@ -184,7 +184,7 @@ Eine deutsche Benutzeroberfläche ist für eine zukünftige Version geplant. Ich
 
 Diese Funktionsideen werden derzeit nur geprüft; sie sind noch nicht implementiert und nicht verbindlich zugesagt. Eine mögliche Umsetzung setzt eine Prüfung der technischen Machbarkeit sowie des Datenschutzes und der Sicherheit voraus. Wetterdienste, Smart-Home-Systeme und Sprachassistenten können Herstellerkonten, Cloud-Dienste, offizielle APIs, Benutzerberechtigungen und die Einhaltung der jeweiligen Nutzungsbedingungen erfordern.
 
-## Trademark and temporary-name notice · Aviso de marcas e nome provisório
+## Trademark and temporary-name notice · Aviso de marcas e nome provisório · Hinweis zu Marken und zum vorläufigen Projektnamen
 
 ### EN Global
 
@@ -201,6 +201,14 @@ FRITZ! e FRITZ!Box são marcas da **FRITZ! GmbH**. Este projeto independente nã
 **“FRITZ!Scope” é apenas um nome de trabalho provisório, utilizado de forma privada pelo criador do projeto durante o desenvolvimento.** A sua apresentação nesta pré-visualização não constitui o lançamento público da aplicação com esse nome nem a adoção do nome como marca comercial. O nome da aplicação e a respetiva identidade visual poderão ser alterados antes de qualquer futuro lançamento público, para evitar confusão e respeitar os direitos de marca e de propriedade intelectual de terceiros.
 
 Informação oficial sobre as marcas e respetivas condições de utilização: [FRITZ! GmbH — Condições de utilização](https://about.fritz.com/presse/bilder-und-videos/nutzungsbedingungen).
+
+### DE — Deutschland
+
+FRITZ! und FRITZ!Box sind Marken der **FRITZ! GmbH**. Dieses unabhängige Projekt beansprucht weder die Inhaberschaft noch sonstige Rechte an diesen Marken. Es steht in keiner Verbindung zur FRITZ! GmbH, wurde von ihr weder autorisiert noch unterstützt und wird von ihr nicht gesponsert.
+
+**„FRITZ!Scope“ ist lediglich ein vorläufiger Arbeitstitel, den der Projektentwickler während der Entwicklung privat verwendet.** Die Verwendung dieses Namens in dieser visuellen Vorschau stellt weder eine öffentliche Veröffentlichung der Anwendung unter diesem Namen noch die Einführung des Namens als kommerzielle Marke dar. Der Name der Anwendung und ihr visuelles Erscheinungsbild können vor einer möglichen späteren öffentlichen Veröffentlichung geändert werden, um Verwechslungen zu vermeiden und die Markenrechte sowie sonstigen Rechte Dritter an geistigem Eigentum zu respektieren.
+
+Offizielle Informationen zu Marken und deren Nutzung: [FRITZ! GmbH — Nutzungsbedingungen](https://about.fritz.com/presse/bilder-und-videos/nutzungsbedingungen).
 
 <div align="center">
 
