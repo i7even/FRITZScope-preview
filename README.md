@@ -20,6 +20,20 @@ Inteligência local de rede para FRITZ!Box
 > [!IMPORTANT]
 > Este repositório é apenas uma apresentação visual. A aplicação, o código-fonte, o executável e os downloads ainda não são publicados porque o desenvolvimento e a validação continuam em curso.
 
+## Community poll · Votação da comunidade
+
+Help decide how a future stable version should be distributed. The poll is a community consultation only; no application, license, payment or download is currently being offered.
+
+Ajuda a decidir como uma futura versão estável deverá ser distribuída. A votação é apenas uma consulta à comunidade; neste momento não está a ser disponibilizada qualquer aplicação, licença, forma de pagamento ou download.
+
+<div align="center">
+
+[![Vote now · Votar agora](https://img.shields.io/badge/Vote_now-Votar_agora-238636?style=for-the-badge&logo=github)](https://github.com/i7even/FRITZScope-preview/discussions/1)
+
+**[View the public poll and results · Ver a votação pública e os resultados](https://github.com/i7even/FRITZScope-preview/discussions/1)**
+
+</div>
+
 ## EN Global preview
 
 ![FRITZ!Scope main dashboard preview](assets/en-global/FRITZScope-Preview-Main-16x9-EN.png)
