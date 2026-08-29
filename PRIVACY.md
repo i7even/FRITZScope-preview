@@ -1,6 +1,6 @@
 # FritzScope privacy notice
 
-This notice describes the public Windows beta `v3.1.3B`. FritzScope is a local desktop application. It has no project account, advertising, analytics, cloud dashboard or automatic telemetry.
+This notice describes the public Windows beta `v3.1.6B`. FritzScope is a local desktop application. It has no project account, advertising, analytics, cloud dashboard or automatic telemetry.
 
 ## Data stored on the computer
 
@@ -8,7 +8,9 @@ This notice describes the public Windows beta `v3.1.3B`. FritzScope is a local d
 - A saved FRITZ!Box credential is protected for the current Windows user with Windows DPAPI.
 - Device activity can contain a device name, local IP address and MAC address for up to 30 days.
 - Numeric Scope history is kept for up to 31 days, with a defensive 32 MiB limit, and contains no device names, IP addresses, MAC addresses, SSIDs or credentials.
-- Manufacturer/OUI results selected by the user can be cached locally.
+- Public-IP history stores the complete IPv4 address, timestamp and source locally for up to 365 days and at most 400 observed assignments. The general event timeline does not duplicate those complete addresses into its CSV file.
+- Confirmed device identities are associated locally with a deterministic SHA-256 hash of the complete normalised MAC address. The identity file does not store the MAC address, IP address or device name in plain text; the hash is a pseudonymous identifier, not anonymisation. A user can remove it with **Undo identification** or by deleting the local data. The defensive limits are 4,096 identities and 4 MiB.
+- Manufacturer/OUI results selected by the user can be cached locally. A private or random MAC address is not sent to the vendor service or to a browser search.
 
 ## Network communication
 
@@ -17,7 +19,6 @@ This notice describes the public Windows beta `v3.1.3B`. FritzScope is a local d
 - No IP-location or MAC-vendor request runs automatically.
 - A user-confirmed IP lookup sends only the selected public IP to `api.ipapi.is`; `ipwho.is` can be used as a fallback.
 - **Identify** sends only the first three bytes of a MAC address (the OUI) to the maclookup service after the user invokes it.
-- **Search online** opens the default browser with an OUI-based Google search only after the user chooses that action.
 - The PayPal donation page opens only after the user selects the optional donation button.
 
 Each external provider processes a manually submitted request under its own terms and privacy policy. FritzScope does not operate those services and does not receive the provider's logs.
@@ -27,7 +28,7 @@ Each external provider processes a manually submitted request under its own term
 1. Exit FritzScope from its notification-area icon.
 2. Delete the portable FritzScope application folder.
 3. Delete `%LocalAppData%\FritzScope` to remove current local history, interface preferences and protected credentials.
-4. If a legacy portable copy used a local `Dados` folder beside the executable, delete that folder too.
+4. If a `Dados` folder exists beside the executable, delete that folder too. This also removes any `.bak` copies stored inside those data folders.
 
 FritzScope has no project cloud account to delete. Do not upload or redistribute a local `Dados` folder because it may contain private network information.
 
@@ -35,7 +36,7 @@ FritzScope has no project cloud account to delete. Do not upload or redistribute
 
 # Aviso de privacidade do FritzScope
 
-Este aviso descreve a beta pública `v3.1.3B` para Windows. O FritzScope é uma aplicação local: não possui conta do projeto, publicidade, analytics, painel cloud nem telemetria automática.
+Este aviso descreve a beta pública `v3.1.6B` para Windows. O FritzScope é uma aplicação local: não possui conta do projeto, publicidade, analytics, painel cloud nem telemetria automática.
 
 ## Dados guardados no computador
 
@@ -43,7 +44,9 @@ Este aviso descreve a beta pública `v3.1.3B` para Windows. O FritzScope é uma 
 - Uma credencial da FRITZ!Box guardada é protegida pelo Windows DPAPI para o utilizador atual do Windows.
 - A atividade dos aparelhos pode conter nome, IP local e MAC durante um máximo de 30 dias.
 - O histórico numérico do Scope é conservado até 31 dias, com limite defensivo de 32 MiB, e não contém nomes, IPs, MACs, SSIDs nem credenciais.
-- Resultados de fabricante/OUI pedidos pelo utilizador podem ser guardados numa cache local.
+- O histórico do IP público guarda localmente o IPv4 completo, data/hora e origem durante um máximo de 365 dias e 400 atribuições observadas. A linha temporal geral não duplica esses endereços completos no respetivo ficheiro CSV.
+- As identidades confirmadas dos aparelhos são associadas localmente a um hash SHA-256 determinístico do MAC completo normalizado. O ficheiro de identidades não guarda o MAC, o IP nem o nome do aparelho em texto simples; o hash é um identificador pseudónimo, não uma anonimização. O utilizador pode removê-lo através de **Desfazer identificação** ou apagando os dados locais. Os limites defensivos são 4.096 identidades e 4 MiB.
+- Resultados de fabricante/OUI pedidos pelo utilizador podem ser guardados numa cache local. Um MAC privado ou aleatório não é enviado ao serviço de fabricante nem para uma pesquisa no navegador.
 
 ## Comunicações de rede
 
@@ -52,7 +55,6 @@ Este aviso descreve a beta pública `v3.1.3B` para Windows. O FritzScope é uma 
 - Nenhuma consulta de localização de IP ou fabricante MAC é feita automaticamente.
 - Uma consulta de IP confirmada pelo utilizador envia apenas o IP público escolhido para `api.ipapi.is`; `ipwho.is` pode ser usado como alternativa.
 - **Identificar** envia apenas os primeiros três bytes do MAC (OUI) para o serviço maclookup depois de o utilizador escolher essa ação.
-- **Pesquisar online** abre o navegador predefinido com uma pesquisa Google baseada no OUI apenas depois de o utilizador pedir essa ação.
 - A página PayPal só abre quando é escolhido o botão de donativo opcional.
 
 Cada fornecedor externo trata o pedido manual segundo os seus próprios termos e política de privacidade. O FritzScope não opera esses serviços nem recebe os respetivos registos.
@@ -62,6 +64,6 @@ Cada fornecedor externo trata o pedido manual segundo os seus próprios termos e
 1. Sai completamente do FritzScope através do ícone junto ao relógio.
 2. Apaga a pasta portátil da aplicação FritzScope.
 3. Apaga `%LocalAppData%\FritzScope` para remover histórico, preferências da interface e credenciais protegidas atuais.
-4. Se uma versão portátil antiga utilizou uma pasta `Dados` ao lado do executável, apaga também essa pasta.
+4. Se existir uma pasta `Dados` ao lado do executável, apaga também essa pasta. Isto remove igualmente as cópias `.bak` guardadas dentro dessas pastas de dados.
 
 O FritzScope não tem uma conta cloud do projeto para eliminar. Nunca carregues nem redistribuas a pasta local `Dados`, porque poderá conter informações privadas da rede.
