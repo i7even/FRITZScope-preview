@@ -1,0 +1,41 @@
+# Public binary-project repository allowlist.
+# The compiled ZIP is uploaded only as a GitHub Release asset; it is never tracked in Git.
+*
+!.gitignore
+!README.md
+!DOWNLOAD.md
+!LICENSE.md
+!THIRD-PARTY-NOTICES.md
+!PRIVACY.md
+!ASSET-PROVENANCE.md
+!assets/
+!assets/FritzScope-icon-256.png
+!assets/screenshots/
+!assets/screenshots/FritzScope-Overview-PT.jpg
+!assets/screenshots/FritzScope-Scope-Charts-PT.jpg
+
+# Explicit sensitive/private patterns retained for clarity.
+*.exe
+*.zip
+*.7z
+*.rar
+*.ps1
+*.cs
+*.json
+*.csv
+*.log
+*.db
+*.sqlite
+*.bak
+*.tmp
+*.key
+*.pem
+*.pfx
+*.cer
+*.config
+*.env
+Dados/
+Data/
+Logs/
+Backups/
+Releases/
