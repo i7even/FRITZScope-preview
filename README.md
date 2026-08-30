@@ -6,10 +6,11 @@
 
 <p>
   <a href="#download--transferência"><img alt="Status: public beta" src="https://img.shields.io/badge/status-public%20beta-2ea44f?style=flat-square"></a>
-  <img alt="Platform: Windows" src="https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&amp;logo=windows11&amp;logoColor=white">
-  <img alt="Version: v3.1.6B" src="https://img.shields.io/badge/version-v3.1.6B-1f6feb?style=flat-square">
+  <img alt="Platform: Windows x64" src="https://img.shields.io/badge/platform-Windows%20x64-0078D4?style=flat-square&amp;logo=windows11&amp;logoColor=white">
+  <img alt="Version: v3.1.7B" src="https://img.shields.io/badge/version-v3.1.7B-1f6feb?style=flat-square">
   <img alt="Languages: PT-PT and EN Global" src="https://img.shields.io/badge/languages-PT--PT%20%7C%20EN%20Global-0b7285?style=flat-square">
-  <a href="https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.6B/FritzScope-v3.1.6B-Windows.exe"><img alt="Download Windows executable" src="https://img.shields.io/badge/download-Windows%20EXE-238636?style=flat-square&amp;logo=windows11&amp;logoColor=white"></a>
+  <a href="https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.7B/FritzScope-v3.1.7B-Windows.exe"><img alt="Download Windows executable" src="https://img.shields.io/badge/download-Windows%20EXE-238636?style=flat-square&amp;logo=windows11&amp;logoColor=white"></a>
+  <a href="https://www.virustotal.com/gui/file/37b950837681e72d9d45968c72deaaccb2f190d8dac2df8b895ff7da50190b14/detection"><img alt="VirusTotal analysis: 3 of 71 engines" src="https://img.shields.io/badge/VirusTotal-3%2F71-f59e0b?style=flat-square&amp;logo=virustotal&amp;logoColor=white"></a>
   <a href="https://github.com/i7even/FRITZScope-preview/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/i7even/FRITZScope-preview?style=flat-square&amp;color=2ea44f"></a>
   <a href="https://github.com/i7even/FRITZScope-preview/discussions"><img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/i7even/FRITZScope-preview?style=flat-square&amp;logo=github&amp;label=discussions"></a>
   <a href="#trademark-and-temporary-name-notice--aviso-de-marcas-e-nome-provisório--hinweis-zu-marken-und-zum-vorläufigen-projektnamen"><img alt="Rights: all rights reserved" src="https://img.shields.io/badge/rights-all%20rights%20reserved-e8590c?style=flat-square"></a>
@@ -21,7 +22,7 @@
 Local Windows network intelligence for FRITZ!Box  
 Inteligência local de rede para FRITZ!Box
 
-`v3.1.6B` · `Native Windows Beta` · `PT-PT` · `EN Global` · `DE planned · geplant`
+`v3.1.7B` · `Native Windows x64 Beta` · `PT-PT` · `EN Global` · `DE planned · geplant`
 
 </div>
 
@@ -32,31 +33,31 @@ Inteligência local de rede para FRITZ!Box
 > Este repositório publica apenas a **beta compilada para Windows**. O código-fonte da aplicação não é incluído. O pacote contém o executável, os ícones próprios do projeto e documentação; não contém credenciais do router, registos, históricos, cópias de segurança nem configuração privada.
 
 > [!WARNING]
-> `v3.1.6B` is an unsigned beta. Windows SmartScreen may display an “unknown publisher” warning. Download only from this repository and compare the SHA-256 checksum shown in the release notes before running it.
+> `v3.1.7B` is an unsigned beta. Windows SmartScreen may display an “unknown publisher” warning. Download only from this repository and compare the SHA-256 checksum shown in the release notes before running it.
 
 > [!WARNING]
-> A `v3.1.6B` é uma beta sem assinatura digital. O Windows SmartScreen poderá mostrar o aviso “editor desconhecido”. Transfere apenas deste repositório e confirma o SHA-256 indicado nas notas da versão antes de executar.
+> A `v3.1.7B` é uma beta sem assinatura digital. O Windows SmartScreen poderá mostrar o aviso “editor desconhecido”. Transfere apenas deste repositório e confirma o SHA-256 indicado nas notas da versão antes de executar.
 
 ## Download · Transferência
 
 <div align="center">
 
-[![Download FritzScope EXE](https://img.shields.io/badge/Download-FritzScope%20EXE-238636?style=for-the-badge&amp;logo=windows11&amp;logoColor=white)](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.6B/FritzScope-v3.1.6B-Windows.exe)
-[![Download complete ZIP](https://img.shields.io/badge/Download-ZIP%20%2B%20documentation-1f6feb?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.6B/FritzScope-v3.1.6B-Native-Windows.zip)
+[![Download FritzScope EXE](https://img.shields.io/badge/Download-FritzScope%20EXE-238636?style=for-the-badge&amp;logo=windows11&amp;logoColor=white)](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.7B/FritzScope-v3.1.7B-Windows.exe)
+[![Download complete ZIP](https://img.shields.io/badge/Download-ZIP%20%2B%20documentation-1f6feb?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.7B/FritzScope-v3.1.7B-Native-Windows.zip)
 [![Offer me a beer, please](https://img.shields.io/badge/Offer_me_a_beer-optional_donation-0070ba?style=for-the-badge&amp;logo=paypal&amp;logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=REKGGB7F68J6W)
 
 </div>
 
-- **Requirements · Requisitos:** Windows 10 or Windows 11 with .NET Framework 4.8; a reachable FRITZ!Box and an authorised local account.
-- **Fastest download · Transferência mais rápida:** download [`FritzScope-v3.1.6B-Windows.exe`](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.6B/FritzScope-v3.1.6B-Windows.exe) and run it directly.
-- **Recommended complete package · Pacote completo recomendado:** download [`FritzScope-v3.1.6B-Native-Windows.zip`](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.6B/FritzScope-v3.1.6B-Native-Windows.zip), extract it and run `FritzScope.exe`; this package also includes the licence, notices and local documentation.
+- **Requirements · Requisitos:** 64-bit Windows 10 or Windows 11 with .NET Framework 4.8; a reachable FRITZ!Box and an authorised local account.
+- **Fastest download · Transferência mais rápida:** download [`FritzScope-v3.1.7B-Windows.exe`](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.7B/FritzScope-v3.1.7B-Windows.exe) and run it directly.
+- **Recommended complete package · Pacote completo recomendado:** download [`FritzScope-v3.1.7B-Native-Windows.zip`](https://github.com/i7even/FRITZScope-preview/releases/download/v3.1.7B/FritzScope-v3.1.7B-Native-Windows.zip), extract it and run `FritzScope.exe`; this package also includes the licence, notices and local documentation.
 - **Visible download guide · Guia visível:** [`DOWNLOAD.md`](DOWNLOAD.md).
 - **Changes in this release · Alterações desta versão:** [`CHANGELOG.md`](CHANGELOG.md).
 - **No installer · Sem instalador:** both downloads contain the same portable executable; no installation wizard is required.
 - **No application source in the repository · Sem fontes da aplicação no repositório:** GitHub's automatically generated “Source code” archives contain only the public documentation and project images tracked in this repository—not the application's source code.
 - **Reverse-engineering limitation · Limite de proteção:** omitting the source files does not make a .NET executable impossible to analyse or decompile. This beta is distributed without source code, but it must not be treated as technically immune to reverse engineering.
 - **Optional support · Apoio opcional:** donations are voluntary, one-time and do not unlock features.
-- **Policies · Políticas:** [binary licence](LICENSE.md) · [privacy notice](PRIVACY.md) · [third-party notices](THIRD-PARTY-NOTICES.md) · [asset provenance](ASSET-PROVENANCE.md).
+- **Policies · Políticas:** [security and antivirus transparency](SECURITY.md) · [binary licence](LICENSE.md) · [privacy notice](PRIVACY.md) · [third-party notices](THIRD-PARTY-NOTICES.md) · [asset provenance](ASSET-PROVENANCE.md).
 
 ## Why this project exists · Porque existe este projeto · Warum dieses Projekt entstanden ist
 
@@ -147,7 +148,7 @@ Captura de referência da beta pública anterior, mostrando o histórico local d
 
 ## Current public status · Estado público atual
 
-- Native Windows public beta v3.1.6B · Beta pública nativa para Windows v3.1.6B
+- Native Windows x64 public beta v3.1.7B · Beta pública nativa Windows x64 v3.1.7B
 - Compiled binary package available; application source code is not published · Pacote binário compilado disponível; o código-fonte da aplicação não é publicado
 - PT-PT and EN Global interface; German planned · Interface PT-PT e EN Global; alemão planeado
 - Unsigned beta; SHA-256 is published with the release · Beta sem assinatura digital; o SHA-256 é publicado com a versão
@@ -163,7 +164,7 @@ The following describes the current public beta. The compiled executable is dist
 - Device arrival and departure history can contain a device name, local IP address and MAC address. It remains on the computer and is retained for no more than 30 days.
 - Scope's numeric history remains local and stores no device names, IP addresses, MAC addresses, SSIDs or credentials.
 - Public-IP history remains local and stores the complete IPv4 address, timestamp and source for up to 365 days and at most 400 observed assignments. The general event timeline does not duplicate those complete addresses into its CSV file.
-- **Identify** checks the included local database first. Only when the user invokes it and the OUI is not already known locally can it contact the maclookup service, sending the first three bytes of the MAC address (the OUI), never the complete MAC address. Private or random MAC addresses are not sent externally and require manual confirmation.
+- **Identify** checks the included database and local cache first. If the OUI is still unknown, a separate confirmation names `api.maclookup.app` and shows the exact prefix before any request. Only after approval can it send the first three bytes of the MAC address (the OUI), never the complete MAC address. Private or random MAC addresses are not sent externally and require manual confirmation.
 - In **Security and firewall**, locating an external IP is always a manual, confirmed action. Only the selected public IP is sent first to api.ipapi.is; if that service returns no usable result, ipwho.is can be used as a fallback. The result is kept in memory for the current run.
 
 O texto seguinte descreve a beta pública atual. O executável compilado é distribuído sem o código-fonte da aplicação.
@@ -173,7 +174,7 @@ O texto seguinte descreve a beta pública atual. O executável compilado é dist
 - O histórico de entradas e saídas dos aparelhos pode conter o nome, o IP local e o endereço MAC. Permanece no computador e é conservado durante um máximo de 30 dias.
 - O histórico numérico do Scope permanece local e não guarda nomes de aparelhos, IPs, MACs, SSIDs nem credenciais.
 - O histórico do IP público permanece local e guarda o IPv4 completo, data/hora e origem durante um máximo de 365 dias e 400 atribuições observadas. A linha temporal geral não duplica esses endereços completos no respetivo ficheiro CSV.
-- **Identificar** consulta primeiro a base local incluída. Só depois de o utilizador escolher a ação e quando o OUI ainda não é conhecido localmente pode consultar o serviço maclookup, enviando os primeiros três bytes do MAC (OUI), nunca o endereço MAC completo. MACs privados ou aleatórios não são enviados externamente e exigem confirmação manual.
+- **Identificar** consulta primeiro a base incluída e a cache local. Se o OUI continuar desconhecido, uma confirmação separada identifica `api.maclookup.app` e mostra o prefixo exato antes de qualquer pedido. Só depois da autorização pode enviar os primeiros três bytes do MAC (OUI), nunca o endereço MAC completo. MACs privados ou aleatórios não são enviados externamente e exigem confirmação manual.
 - Em **Segurança e firewall**, localizar um IP externo é sempre uma ação manual e confirmada. Só o IP público selecionado é enviado primeiro para api.ipapi.is; se esse serviço não devolver um resultado utilizável, ipwho.is pode ser usado como alternativa. O resultado permanece em memória durante a execução atual.
 
 ## Roadmap and ideas under evaluation · Roteiro e ideias em avaliação · Roadmap und Ideen in Prüfung

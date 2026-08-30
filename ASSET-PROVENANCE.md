@@ -1,6 +1,6 @@
 # Asset provenance
 
-This file records the public assets used by the current FritzScope `v3.1.6B` binary beta.
+This file records the public assets used by the current FritzScope `v3.1.7B` binary beta.
 
 | Asset | Provenance | Distribution status |
 |---|---|---|
@@ -12,4 +12,4 @@ This file records the public assets used by the current FritzScope `v3.1.6B` bin
 
 No FRITZ! GmbH press image, product photograph, firmware artwork or proprietary FRITZ! logo file is included in the public repository or portable binary package. Product names are referenced only to describe compatibility and are covered by the independent-project notice in the README.
 
-The published screenshots were captured from a previous public beta, reviewed visually and checked for personal metadata before publication. They remain layout references and are not presented as v3.1.6B captures.
+The published screenshots were captured from a previous public beta, reviewed visually and checked for personal metadata before publication. They remain layout references and are not presented as v3.1.7B captures.

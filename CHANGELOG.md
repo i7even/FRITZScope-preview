@@ -4,6 +4,30 @@ This file records functional changes in the published binary. It never contains 
 
 Este ficheiro regista alterações funcionais do binário publicado. Nunca contém registos do router, endereços IP públicos ou locais, endereços MAC, nomes de aparelhos, credenciais nem outros dados de uma instalação real.
 
+## v3.1.7B — Security transparency and false-positive reduction · Transparência de segurança e redução de falsos positivos
+
+### English
+
+- Audits the previous VirusTotal behavior labels against the application source and compiled PE; FritzScope contains no WMI, debugger-detection, process-injection, LSASS, PowerShell, command-shell, packer or obfuscator implementation.
+- Produces an explicit Windows x64 PE32+ build with a non-elevated `asInvoker` manifest, high-entropy ASLR and code-integrity compiler flags.
+- Opens the local history directory through the Windows shell instead of directly launching `explorer.exe` with an argument.
+- Replaces the blocking wait handle in the user-confirmed single-port TCP test with `ConnectAsync` and a bounded asynchronous timeout.
+- Checks the built-in OUI database and local cache first, then asks for separate consent before sending an unknown three-byte OUI to `api.maclookup.app`.
+- Automates creation and hash verification of the standalone release EXE and adds a package-only path so documentation can be refreshed without changing the executable already scanned.
+- Records a clean Microsoft Defender scan and links the exact final executable to its public VirusTotal analysis in `SECURITY.md`.
+- Keeps all monitoring, TR-064, ICMP, history, public-IP and device-identification features; no security feature was bypassed or disabled.
+
+### Português
+
+- Compara os rótulos de comportamento anteriores do VirusTotal com o código e o PE compilado; o FritzScope não implementa WMI, deteção de debugger, injeção de processos, LSASS, PowerShell, linha de comandos, packer ou ofuscação.
+- Produz uma compilação Windows x64 PE32+ explícita, com manifesto `asInvoker` sem elevação, ASLR de entropia elevada e flags de integridade de código.
+- Abre a pasta local do histórico através da shell do Windows em vez de executar diretamente `explorer.exe` com um argumento.
+- Substitui o wait handle bloqueante do teste confirmado de uma única porta por `ConnectAsync` com um limite assíncrono.
+- Consulta primeiro a base OUI incluída e a cache local e pede depois consentimento separado antes de enviar um OUI desconhecido de três bytes para `api.maclookup.app`.
+- Automatiza a criação e confirmação por hash do EXE autónomo e acrescenta um modo de atualizar apenas o pacote, preservando o executável já analisado.
+- Regista a verificação limpa do Microsoft Defender e liga o executável final exato à análise pública do VirusTotal em `SECURITY.md`.
+- Mantém todas as funções de monitorização, TR-064, ICMP, histórico, IP público e identificação de aparelhos; nenhuma proteção foi contornada ou desativada.
+
 ## v3.1.6B — Public-IP history and diagnostic timeline · Histórico do IP público e linha temporal de diagnóstico
 
 ### English

@@ -1,6 +1,6 @@
 # FritzScope privacy notice
 
-This notice describes the public Windows beta `v3.1.6B`. FritzScope is a local desktop application. It has no project account, advertising, analytics, cloud dashboard or automatic telemetry.
+This notice describes the public Windows x64 beta `v3.1.7B`. FritzScope is a local desktop application. It has no project account, advertising, analytics, cloud dashboard or automatic telemetry.
 
 ## Data stored on the computer
 
@@ -18,7 +18,7 @@ This notice describes the public Windows beta `v3.1.6B`. FritzScope is a local d
 - The ICMP test targets `1.1.1.1`; it is a small local connectivity test, not a formal ISP SLA measurement.
 - No IP-location or MAC-vendor request runs automatically.
 - A user-confirmed IP lookup sends only the selected public IP to `api.ipapi.is`; `ipwho.is` can be used as a fallback.
-- **Identify** sends only the first three bytes of a MAC address (the OUI) to the maclookup service after the user invokes it.
+- **Identify** checks the built-in database and local cache first. When the OUI remains unknown, it shows a separate confirmation naming `api.maclookup.app` and the exact OUI. Only after approval does it send those first three bytes; the complete MAC address, IP address and device name are not sent.
 - The PayPal donation page opens only after the user selects the optional donation button.
 
 Each external provider processes a manually submitted request under its own terms and privacy policy. FritzScope does not operate those services and does not receive the provider's logs.
@@ -36,7 +36,7 @@ FritzScope has no project cloud account to delete. Do not upload or redistribute
 
 # Aviso de privacidade do FritzScope
 
-Este aviso descreve a beta pública `v3.1.6B` para Windows. O FritzScope é uma aplicação local: não possui conta do projeto, publicidade, analytics, painel cloud nem telemetria automática.
+Este aviso descreve a beta pública `v3.1.7B` para Windows x64. O FritzScope é uma aplicação local: não possui conta do projeto, publicidade, analytics, painel cloud nem telemetria automática.
 
 ## Dados guardados no computador
 
@@ -54,7 +54,7 @@ Este aviso descreve a beta pública `v3.1.6B` para Windows. O FritzScope é uma 
 - O teste ICMP usa `1.1.1.1`; é um pequeno teste local de conectividade e não uma medição formal do SLA do operador.
 - Nenhuma consulta de localização de IP ou fabricante MAC é feita automaticamente.
 - Uma consulta de IP confirmada pelo utilizador envia apenas o IP público escolhido para `api.ipapi.is`; `ipwho.is` pode ser usado como alternativa.
-- **Identificar** envia apenas os primeiros três bytes do MAC (OUI) para o serviço maclookup depois de o utilizador escolher essa ação.
+- **Identificar** consulta primeiro a base incluída e a cache local. Quando o OUI continua desconhecido, apresenta uma confirmação separada que identifica `api.maclookup.app` e o OUI exato. Só depois da autorização envia esses primeiros três bytes; o MAC completo, IP e nome do aparelho não são enviados.
 - A página PayPal só abre quando é escolhido o botão de donativo opcional.
 
 Cada fornecedor externo trata o pedido manual segundo os seus próprios termos e política de privacidade. O FritzScope não opera esses serviços nem recebe os respetivos registos.
